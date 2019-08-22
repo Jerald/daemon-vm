@@ -8,8 +8,8 @@ The ISA has a fixed 32-bit instruction size.
 
 Bit layout is currently as follows:
 
-| Opcode  | L field mode | L Field | Operation size | R field mode | R Field | Total
-| :---:   |  :---:  | :---: |:---: | :---: | :---: | :---: | :---: |
+| Opcode  | L field mode | L Field | Operation size | R field mode | R Field | Total |
+| :---:   |  :---:  | :---: |:---: | :---: | :---: | :---: |
 | `XXXXX` | `XXX` | `XXXXXXXX` | `XXXXX` | `XXX` | `XXXXXXXX`  | `-` |
 | 5 bits  | 3 bits | 8 bits | 5 bits | 3 bits | 8 bits  | 32 bits |
 
