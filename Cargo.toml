@@ -1,5 +1,5 @@
 [package]
-name = "daemon-vm"
+name = "daemon_vm"
 version = "0.1.0"
 authors = ["Matrixmage <osmithsi@sfu.ca>"]
 edition = "2018"
@@ -8,3 +8,6 @@ edition = "2018"
 
 [dependencies]
 nom = "5.0.0"
+
+num-traits = "0.2.8"
+num-derive = "0.2.5"
